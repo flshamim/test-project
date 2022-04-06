@@ -4,7 +4,6 @@ const Food = (props) => {
     const {strCategoryThumb, idCategory,strCategory} =props.food
     return (
         <div className='simple h-full'>
-            <p>hi</p>
             <div className='border-2 mt-5'>
                 <p className='bg-[coral] rounded-lg ml-5 mt-5 pl-3 pr-3 w-20'>20% off </p>
             <img className='w-full flex justify-center' src={strCategoryThumb} alt="" />
