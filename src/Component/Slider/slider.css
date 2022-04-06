@@ -1,0 +1,15 @@
+.opsonal{
+    border: 2px solid rgb(253, 113, 113);
+    margin-top: 20px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: coral;
+    transform: rotate(100deg);
+    
+}
+.opsonal:hover{
+   padding: 20px;
+   transition: ease-in .3s;
+   border-radius: 50%;
+   rotate: 360deg ;
+}
